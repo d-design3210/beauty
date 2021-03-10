@@ -1,0 +1,498 @@
+@charset "utf-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: black;
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+p{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+h1{
+  font-size: 74px;
+}
+
+h2{
+  font-size: 48px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+.wrap{
+  width: 750px;
+}
+
+.header-wrap{
+  width: 100%;
+  background-color :#b3dae1 ;
+}
+
+.header-contents ul{
+  display: flex;
+  padding: 10px;
+
+}
+
+.header-contents li{
+  padding-left: 5px;
+  margin: 0 auto;
+}  
+
+.main{
+  width: 100%;
+  background-color: #b3dae1;
+  text-shadow: 0 0 7px #000;
+}
+
+.main-wrap{
+  width: 100%;
+  background-color: #b3dae1;
+}
+
+.main-wrap img{
+  position: absolute;
+}
+
+.main-head {
+  position: relative;
+  text-align: center;
+}
+
+.main-head h1{
+  font-size: 74px;
+  line-height: 80px;
+  padding-top: 115px;
+  color:white ;
+}
+
+.main-head h3{
+  color: white;
+  padding-top: 32px;
+}
+
+.main-message{
+  position: relative;
+  padding-top: 163px;
+}
+
+.main-message h3{
+  float: left;
+  margin-top: 146px;
+  background-color:  rgba(0, 0, 0, 0.5);
+  width: 92%;
+  color: white;
+  margin-bottom: 55px;
+  padding-left: 60px;
+}
+
+.main-message img{
+  float: right;
+  position:relative;
+  margin-top: -250px;
+}
+
+.main-policy{
+  position: relative;
+  color: white;
+  padding-left: 60px;
+}
+
+.main-policy h2{
+  line-height: 70px
+}
+
+.main-botton{
+  text-align: center;
+  text-shadow: none;
+  position: relative;
+  left:75%;
+  z-index: 1000;
+  margin: 0 auto;
+}
+
+.main-botton a{
+  background-color: #84ff7c;
+  padding:  30px  25px;
+  font-size: 18px;
+  border-radius: 50%;
+  box-shadow:4px 4px #555; 
+  box-shadow: 3px 3px 10px 0px rgba(255,255,255,0.75) inset,-3px -3px 10px 0px rgba(0,0,0,0.75) inset;
+  position: fixed;
+  bottom: 10px;
+  display: block;
+  margin: 0 auto;
+  line-height: 20px;
+  z-index: 1000;
+  
+}
+
+.main-botton a:active{
+  box-shadow: none;
+  bottom: -5px;
+  display: block;
+  margin: 0 auto;
+  z-index: 1000;
+}
+
+.background{
+  width: 100%;
+  height: 196px;
+  margin-top:-10px;
+  z-index: 2;
+  transform: skewY(5deg);
+  transform-origin: bottom left;
+  background-color:#9CEFBA;
+}
+
+.service-wrap{
+  width: 100%;
+}
+
+.service-container{
+  margin: 0 auto;
+  background-color: #F4E98C;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  padding-bottom:  200px;
+}
+
+.container-head img{
+  position: absolute;
+  margin-top: -205px;
+}
+
+.container-head ul{
+  position: relative;
+  text-align: center;
+  padding-left: 250px;
+  top: -130px;
+  text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+.service-contents{
+  width: 90%;
+  margin: 0 auto;  
+}
+
+.service-contents h1{
+  margin-bottom: -100px;
+  position: relative;
+  z-index: 2;
+}
+
+.cicle{
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  box-shadow:4px 4px black;
+  margin-bottom: 50px;
+  justify-content:center;
+  z-index: 1;
+}
+
+
+.service-contents p{
+  text-align:left;
+  position: absolute;
+  width: 80%;
+  margin: 0 auto;
+  top: 50%;
+  left: 12%;
+}
+
+.service-contents h3{
+  width: 70%;
+  margin: 0 auto;
+  position: absolute;
+  top: 20%;
+  left: 17%;
+}
+
+.service-contents img{
+  box-shadow:15px 15px 15px -15px black;
+}
+
+.service1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listimage1{
+  padding-top: 230px;
+  position: relative;
+  left:  50px;
+}
+
+.listimage2{
+  padding-top: 110px;
+}
+
+.listimage3{
+  padding-top: 60px;
+  position: relative;
+  left: 50px;
+}
+
+.listimage4{
+  padding-top: 180px;
+  position: relative;
+  right:  30px;
+}
+
+.listimage5{
+  padding-top: 70px;
+  position: relative;
+  right: 30px;
+}
+
+.listimage6{
+  padding-top: 80px;
+}
+
+.listimage7{
+  padding-top: 157px;
+}
+
+
+.sample{
+  width: 100%;
+}
+
+.sample-wrap{
+  width: 100%;
+}
+ 
+.sample-wrap img{
+  margin-top: -200px;
+  z-index: 3; 
+  position: relative;
+}
+
+.sample-wrap h2{
+  position: relative;
+  margin-top: -650px;
+  z-index: 4;
+  margin-left: 50px;
+  text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+.sample-image{
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 230px;
+}
+
+.sample-image ul{
+  display: flex;
+}
+
+.sample-image img{
+  width:80% ;
+  margin: 0 auto;
+}
+
+.flow{
+  width: 100%;
+}
+
+.flow-back{
+  width: 100%;
+}
+
+.flow-back img{
+  z-index: 10;
+  position: relative;
+  margin-top: -235px;
+}
+
+.flow-back ul{
+  position: relative;
+  z-index: 12;
+  text-align: center;
+  margin-top: -190px;
+  margin-left: 150px;
+  padding-bottom: 70px;
+  line-height: 50px;
+  text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+.flow-back p{
+  line-height: 20px;
+}
+
+.background2{
+  width: 100%;
+  height: 325px;
+  margin-top:-10px;
+  z-index: 2;
+  transform: skewY(13.5deg);
+  transform-origin: bottom left;
+  background-color:#9CEFBA;
+  margin-top: 15px;
+}
+
+
+
+.flow-container{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #b3dae1;
+  position: relative;
+  z-index: 100;
+  padding-top: 100px;
+  margin-top: -40px;
+  text-align: center;
+}
+
+.flow-contents{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.flow-contents img{
+  margin-right: 25px;
+}
+
+.flow-contents p{
+  text-align: left;
+}
+
+
+
