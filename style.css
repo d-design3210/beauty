@@ -109,6 +109,13 @@ body{
   font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
 }
 
+@keyframes titleAnimation{
+  0%{
+    letter-spacing: 3em;
+    opacity: 0;
+  }
+}
+
 li{
   list-style: none;
 }
@@ -235,13 +242,13 @@ h3{
   border-radius: 50%;
   box-shadow:4px 4px #555; 
   box-shadow: 3px 3px 10px 0px rgba(255,255,255,0.75) inset,-3px -3px 10px 0px rgba(0,0,0,0.75) inset;
-  position: fixed;
-  bottom: 10px;
   display: block;
   margin: 0 auto;
   line-height: 20px;
   z-index: 1000;
-  
+  position: fixed;
+  bottom: 60px;
+  color:white;
 }
 
 .main-botton a:active{
@@ -250,7 +257,10 @@ h3{
   display: block;
   margin: 0 auto;
   z-index: 1000;
+  bottom: 60px;
+  color:white;
 }
+
 
 .background{
   width: 100%;
@@ -311,8 +321,15 @@ h3{
   margin-bottom: 50px;
   justify-content:center;
   z-index: 1;
+  opacity: 0;
+  transition: 1s;
+  transform: translatey(-20px);
 }
 
+.cicle.show{
+  transform: none;
+  opacity: 1;
+}
 
 .service-contents p{
   text-align:left;
@@ -335,6 +352,17 @@ h3{
   box-shadow:15px 15px 15px -15px black;
 }
 
+.listimage1.show,
+.listimage2.show,
+.listimage3.show,
+.listimage4.show,
+.listimage5.show,
+.listimage6.show,
+.listimage7.show{
+  opacity: 1;
+  transform: none;
+}
+
 .service1 {
   display: flex;
   justify-content: space-between;
@@ -354,36 +382,57 @@ h3{
   padding-top: 230px;
   position: relative;
   left:  50px;
+  opacity: 0;
+  transform: translatey(20px);
+  transition: 1s;
 }
 
 .listimage2{
   padding-top: 110px;
+  opacity: 0;
+  transform: translatey(20px);
+  transition: 1s;
 }
 
 .listimage3{
   padding-top: 60px;
   position: relative;
   left: 50px;
+  opacity: 0;
+  transform: translatey(20px);
+  transition: 1s;
 }
 
 .listimage4{
   padding-top: 180px;
   position: relative;
   right:  30px;
+  opacity: 0;
+  transform: translatey(20px);
+  transition: 1s;
 }
 
 .listimage5{
   padding-top: 70px;
   position: relative;
   right: 30px;
+  opacity: 0;
+  transform: translatey(20px);
+  transition: 1s;
 }
 
 .listimage6{
   padding-top: 80px;
+  opacity: 0;
+  transform: translatey(20px);
+  transition: 1s;
 }
 
 .listimage7{
   padding-top: 157px;
+  opacity: 0;
+  transform: translatey(20px);
+  transition: 1s;
 }
 
 
@@ -405,7 +454,7 @@ h3{
   position: relative;
   margin-top: -650px;
   z-index: 4;
-  margin-left: 50px;
+  margin-left: 150px;
   text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
 }
 
@@ -423,6 +472,13 @@ h3{
 .sample-image img{
   width:80% ;
   margin: 0 auto;
+}
+
+.flow-contents.show img,
+.flow-contents.show p,
+.flow-contents.show h3{
+  opacity: 1;
+  transform: none;
 }
 
 .flow{
@@ -486,13 +542,71 @@ h3{
   padding-bottom: 15px;
 }
 
+.flow-contents h3{
+  opacity: 0;
+  transform: translatex(20px);
+  transition: 1s;
+} 
 .flow-contents img{
   margin-right: 25px;
+  opacity: 0;
+  transform: translatex(-40px);
+  transition: 1s;
 }
 
 .flow-contents p{
   text-align: left;
+  opacity: 0;
+  transform: translatex(-20px);
+  transition: 1s;
+}
+
+.contact{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-wrap{
+  width: 100%;
+  text-align: center;
+  background-color:#b3dae1;
+}
+
+.contact-contents p{
+  margin-bottom: 25px;
+}
+
+.contact-contents a{
+  padding:10px 50px ;
+  border-radius: 50px;
+}
+
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
+}
+a.btn--orange:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+a.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
+footer{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin: 25px 0;
 }
 
 
 
+footer img{
+  height: 30%;
+  width: 30%;
+}
