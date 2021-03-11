@@ -188,16 +188,19 @@ h3{
   line-height: 80px;
   padding-top: 115px;
   color:white ;
+  width: 100%;
 }
 
 .main-head h3{
   color: white;
   padding-top: 32px;
+  width: 100%;
 }
 
 .main-message{
   position: relative;
   padding-top: 163px;
+  display: block;
 }
 
 .main-message h3{
@@ -220,6 +223,7 @@ h3{
   position: relative;
   color: white;
   padding-left: 60px;
+  width: 100%;
 }
 
 .main-policy h2{
