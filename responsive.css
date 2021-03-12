@@ -1,6 +1,5 @@
 @media(max-width: 450px){
   p{
-    font-size: 10px;
   }
   .header-wrap{
     width: 750px;
@@ -25,6 +24,7 @@
     color: white;
     padding-top: 32px;
     width: 750px;
+    font-size: 5vmin;
   }
 
   .main-policy{
@@ -32,6 +32,10 @@
     color: white;
     width: 750px;
     text-align: center;
+  }
+
+  .main-policy p{
+    font-size: 5vmin;
   }
 
   .background{
