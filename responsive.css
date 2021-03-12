@@ -1,0 +1,86 @@
+@media(max-width: 450px){
+  .header-wrap{
+    width: 750px;
+    background-color :#b3dae1 ;
+  }
+  
+  .main{
+    width: 750px;
+    background-color: #b3dae1;
+    text-shadow: 0 0 7px #000;
+  }
+  
+  .main-wrap{
+    width: 750px;
+  }
+
+  .main-head h1{
+    width: 750px;
+  }
+
+  .main-head h3{
+    color: white;
+    padding-top: 32px;
+    width: 750px;
+  }
+
+  .main-policy{
+    position: relative;
+    color: white;
+    width: 750px;
+    text-align: center;
+  }
+
+  .background{
+    width: 750px;
+  }
+
+  .service-wrap{
+    width: 750px;
+  }
+  .service-container{
+    margin: 0 auto;
+    background-color: #F4E98C;
+    width: 750px;
+    position: relative;
+    z-index: 2;
+    padding-bottom:  200px;
+  }
+
+  .sample{
+    width: 750px;
+  }
+  
+  .sample-wrap{
+    width: 750px;
+  }
+
+  .flow{
+    width: 750px;
+  }
+  
+  .flow-back{
+    width:750px;
+  }
+
+
+  .background2{
+    width: 750px;
+  }
+
+  
+  .flow-container{
+  width: 750px;
+  }
+
+  .contact{
+    width: 750px;
+  }
+  .contact-wrap{
+    width: 750px;
+  }
+
+  footer{
+    width: 750px;
+  }
+}

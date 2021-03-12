@@ -223,8 +223,8 @@ h3{
 .main-policy{
   position: relative;
   color: white;
-  margin-left: 60px;
   width: 100%;
+  text-align: center;
 }
 
 .main-policy h2{
