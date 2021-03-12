@@ -1,6 +1,7 @@
 @media(max-width: 450px){
 
-  .main-haed h3{
+  .main-head h3,
+  .main-message h3{
     font-size: 12px;
   }
   .main-policy p{
