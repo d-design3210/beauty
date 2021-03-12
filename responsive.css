@@ -1,4 +1,7 @@
 @media(max-width: 450px){
+  p{
+    font-size: 10px;
+  }
   .header-wrap{
     width: 750px;
     background-color :#b3dae1 ;
