@@ -195,14 +195,12 @@ h3{
   color: white;
   padding-top: 32px;
   width: 100%;
-  text-align: center;
 }
 
 .main-message{
   position: relative;
   padding-top: 163px;
   display: block;
-  width: 100%;
 }
 
 .main-message h3{
@@ -219,13 +217,14 @@ h3{
   float: right;
   position:relative;
   margin-top: -250px;
+  width: 50%;
 }
 
 .main-policy{
   position: relative;
   color: white;
+  margin-left: 60px;
   width: 100%;
-  text-align: center;
 }
 
 .main-policy h2{
